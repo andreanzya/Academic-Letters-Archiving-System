@@ -163,21 +163,18 @@
                         
                         <div class="box-content" style="width: 578px;">
                             <br><br>
-                            <form method="post" action="cetakRiset.php" id="formsurat">
+                            <form method="post" action="insertDBpenelitian.php" id="formsurat">
                                 <table>
-                                    <tr><td>Nama</td><td><input type="text" name="nama"></td></tr>
+                                <tr><td>Nama</td><td><input type="text" name="nama"><br></td></tr>
                                     <tr><td>NIM</td><td><input type="text" name="nim"></td></tr>
-                                    <tr><td>Jurusan</td></tr>
-                                    <tr><td><input type="radio" id="Jurnalistik" name="jurusan" value="Jurnalistik">Jurnalistik</td></tr>
-                                    <tr><td><input type="radio" id="Komunikasi Marketing" name="jurusan" value="Komunikasi Marketing">Komunikasi Marketing</td></tr>
-                                    <tr><td><input type="radio" id="Broadcasting" name="jurusan" value="Broadcasting">Broadcasting</td></tr>
-                                    <tr><td><input type="radio" id="humas" name="jurusan" value="Hubungan Masyarakat">Hubungan Masyarakat</td></tr>
-                                    <tr><td>Alamat Lengkap</td><td><textarea rows="5" cols="30" name="alamat"  placeholder="Contoh :
-PT. Sepeda Maju Bersama
-Ruko North Goldfinch No. 62,
-Cihuni, Padegangan, Kecamatan Gading Serpong,
-Tangerang, Banten, 15332"></textarea></td></td></tr>
-                                    <tr><td>Judul Penelitian</td><td><textarea rows="3" cols="30" name="judul"></textarea></td></tr>
+                                    <tr><td>No. HP</td><td><input type="text" name="nohp"></td></tr>
+                                    <tr><td>E-mail</td><td><input type="text" name="email"></td></tr>
+                                    <tr><td>Jurusan</td></tr>   
+                                    <tr><td><input type="radio" id="Teknologi Informatika" name="jurusan" value="Teknologi Informatika">Teknologi Informatika</td></tr>
+                                    <tr><td><input type="radio" id="Sistem Informasi" name="jurusan" value="Sistem Informasi">Sistem Informasi</td></tr>
+                                    <tr><td>Nama Perusahaan/Instansi</td><td><input type="text" name="perusahaan"></td></tr>
+                                    <tr><td>Alamat Lengkap</td><td><textarea rows="3" cols="30" style="left: auto;" name="alamat" placeholder="Contoh : Ruko North Goldfinch No. 62, Cihuni, Padeganga Kecamatan Gading Serpong, Tangerang, Banten, 15332"></textarea></td></tr>
+                                    <tr><td>Judul Penelitian</td><td><textarea rows="2" cols="30" name="judul"></textarea></td></tr>
                                     <tr><td><input type="submit" name="submit" value="Submit"></td></tr>
                                 </table>
                             </form>
